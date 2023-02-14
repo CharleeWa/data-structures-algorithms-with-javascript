@@ -40,10 +40,74 @@
 
 // 对数字排序 sort -> compare
 
-function compare(num1, num2) {
-  return num1 - num2
-}
+// function compare(num1, num2) {
+//   return num1 - num2
+// }
 
-var nums = [399, 200, 100, 2]
-nums.sort(compare)
-console.log(nums)
+// var nums = [399, 200, 100, 2]
+// nums.sort(compare)
+// console.log(nums)
+
+// 数组 -》 迭代器方法
+
+// 不生成新数组的迭代器方法
+
+// forEach()、every()、some()、reduce()、reduceRight()
+
+// 生成新数组的迭代器方法
+
+// map()、filter()
+
+// 二维数组
+
+//  var grades = [[89,77,78],[76,82,81],[91,94,89]]
+//  var total = 0
+//  var average = 0.0
+//  for (var row = 0; row < grades.length; row++) {
+//   for (var col = 0; col < grades[row].length; col++) {
+//     total += grades[row][col]
+//   }
+
+//   average = total / grades[row].length
+//   console.log('Student ' + parseInt(row+1) + 'average:' + average.toFixed(2))
+//   total = 0
+//   average = 0.0
+//  }
+
+// 对象数组
+
+// function weekTemps() {
+//   this.dataStore = []
+//   this.add = add
+//   this.average = average
+// }
+
+// function add(temp) {
+//   this.dataStore.push(temp)
+// }
+
+// function average() {
+//   var total = 0
+//   for (var i = 0; i < this.dataStore.length; i++) {
+//     total += this.dataStore[i]
+//   }
+
+//   return total / this.dataStore.length
+// }
+
+// var thisWeek = new weekTemps()
+// thisWeek.add(52)
+// thisWeek.add(55)
+// thisWeek.add(61)
+// thisWeek.add(65)
+// thisWeek.add(55)
+// thisWeek.add(59)
+// thisWeek.add(50)
+// console.log(thisWeek.average())
+
+
+// 练习
+
+// var words = ['h','e','l','l','o']
+// console.log(words.join(''))
+
