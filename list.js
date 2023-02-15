@@ -1,5 +1,5 @@
 // JS没有所谓的List类型，当不需要在一个很长的序列中查找元素，或者对其进行排序时，列表显得尤为有用。
-
+// 适合列表中保存的元素不是太多时，相反，数据结构复杂，列表的作用就没有那么大了
 
 function List() {
   this.listSize = 0
@@ -15,8 +15,8 @@ function List() {
   this.end = end
   this.prev = prev
   this.next = next
-  this.hasNext
-  this.hasPrev
+  this.hasNext = hasNext
+  this.hasPrev = hasPrev
   this.length = length
   this.currPos = currPos
   this.moveTo = moveTo
@@ -121,3 +121,24 @@ function hasPrev() {
   return this.pos >= 0
 }
 
+var names = new List()
+names.append('Clayton')
+names.append('Ratmond')
+names.append('Cynthia')
+names.append('Jennifer')
+names.append('Bryan')
+names.append('Danay')
+
+// names.front()
+// names.next()
+// names.next()
+// names.next()
+// names.prev()
+// console.log(names.getElement())
+
+// 迭代器访问列表
+
+// 迭代器只是用来在列表上随意移动，而不应该和任何未列表增加或删除元素的方法一起使用
+// for (names.front(); names.hasNext(); names.next()) {
+//   console.log(names.getElement())
+// }
