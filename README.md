@@ -1,2 +1,1 @@
-# data-structures-algorithms-with-javascript
-数据结构与算法JavaScript描述这本书的用例练习与实践
+数据结构与算法JavaScript描述 - 这本书的用例练习与实践，包含数组、列表、栈、队列、链表、字典、散列、集合、二叉树、图、排序、检索算法、高级算法。
